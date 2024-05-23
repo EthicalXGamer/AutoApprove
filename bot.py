@@ -29,7 +29,7 @@ async def approve(_, m : Message):
 keyboard = InlineKeyboardMarkup(
                 [
                
-                        InlineKeyboardButton("👻 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ 👻", url="https://t.me/autoXaccept_bot?startgroup")
+                        InlineKeyboardButton("👻 VERIFY YOU ARE NOT A ROBOT 👻", url="https://t.me/autoXaccept_bot?startgroup")
                     ]
         await app.approve_chat_join_request(op.id, kk.id)
         img = random.choice(gif)
